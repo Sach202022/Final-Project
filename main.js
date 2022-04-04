@@ -1,3 +1,5 @@
+console.log('hello world')
+
 document.getElementById('menu-trigger').addEventListener('click', sideMenuAppears);
 document.getElementById('menu-close').addEventListener('click', sideMenuDisappears);
 
