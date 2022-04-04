@@ -19,7 +19,6 @@ html {
   height: 100px;
   width: 100px;
 }
-
 .fa-facebook, .fa-twitter {
   background: #295135;
   color: white;
@@ -53,12 +52,11 @@ a {
   text-decoration: none;
   color: #295135;
 }
-
 li:hover {
   cursor: pointer;
 }
 @media (min-width: 546px) {
-.nav {
+ .nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,13 +64,11 @@ li:hover {
   padding-right: 10px;
   color: #295135;
   padding-right: 20px;
-}
+ }
 .hamburger-menu {
   display: none;
+ }
 }
-
-}
-
 .phone-section{
   display: flex;
   flex-direction: row;
@@ -105,22 +101,19 @@ li:hover {
   padding: 10px;
   transition: 0.5s ease-in-out;
 }
-
 .book:hover {
   background-color: #295135;
   cursor: pointer;
 }
-
-
 .three-boxes {
   display: grid;
   grid-template-columns: 1fr;
 }
 @media (min-width: 546px) {
-.three-boxes {
+ .three-boxes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
+ }
 }
 .open, .address, .get{
   display: block;
@@ -132,7 +125,6 @@ li:hover {
   padding: 10px;
   text-align: center;
 }
-
 .intro {
   display: block;
   text-align: center;
@@ -206,7 +198,7 @@ li {
 }
 .massage-image-6 {
   background-image: url('https://i.imgur.com/D97pb3z.jpg');
-}  
+}
 .news-letter {
   text-align: center;
 }
@@ -217,14 +209,11 @@ li {
   border-radius: 20px;
   font-weight: bold;
 }
-
 fieldset {
   display: inline-block;
   padding: 25px;
   margin: 20px;
-
 }
-
 input, button {
   display: block;
   margin-bottom: 15px;
@@ -235,7 +224,6 @@ input[type=text].red-text {
 label {
   padding-bottom: 8px;
 }
-
 .close-btn {
     border: 2px solid #c2c2c2;
     position: relative;
@@ -246,7 +234,6 @@ label {
     border-radius: 20px;
     Z-index: 2;
 }
-
 .close-btn a {
     font-size: 15px;
     font-weight: bold;
@@ -270,7 +257,6 @@ label {
   opacity: 1;
   transform: translateX(0%);
 }
-
 /*side-menu*/
 .side-menu-position {
   padding-top: 25px;
@@ -281,7 +267,6 @@ label {
   left: 0;
   z-index: 1;
 }
-
 .side-menu-design {
   background-image: url('https://i.imgur.com/VIspZ46.jpg');
   background-size: 1300px 700px;
@@ -303,7 +288,6 @@ label {
   padding-left: 0;
   padding: 10px;
 }
-
 .side-menu-content li {
   color: white;
   list-style: none;
@@ -332,7 +316,6 @@ label {
   left: 200px;
   width: 230px;
 }
-
 .dropdown-menu#menu-4 {
   left: 300px;
   width: 150px;
@@ -348,7 +331,6 @@ label {
   color: #295135;
   padding: 10px;
 }
-
 .menu-item-list li a:focus {
   color: #295135;
   display: block;
