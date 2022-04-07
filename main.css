@@ -217,6 +217,7 @@ fieldset {
 input, button {
   display: block;
   margin-bottom: 15px;
+  color: black;
 }
 input[type=text].red-text {
   color: red;
