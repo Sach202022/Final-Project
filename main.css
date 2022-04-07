@@ -224,6 +224,7 @@ input[type=text].red-text {
 .submit {
   background-color: #cc4c33;
   color: white;
+  padding: 5px;
 }
 label {
   padding-bottom: 8px;
