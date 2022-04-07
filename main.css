@@ -209,6 +209,7 @@ li {
   padding: 20px;
   border-radius: 20px;
   font-weight: bold;
+  text-align: center;
 }
 fieldset {
   display: inline-block;
@@ -226,6 +227,7 @@ input[type=text].red-text {
   background-color: #cc4c33;
   color: white;
   padding: 5px;
+  margin: auto;
 }
 label {
   padding-bottom: 8px;
