@@ -86,8 +86,8 @@ li:hover {
   background-image: url('https://i.imgur.com/8Qg3Lwn.jpg');
   background-position: center;
   background-size: cover;
-  height:600px;
-  padding-top: 500px;
+  height:300px;
+  padding-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -244,7 +244,8 @@ label {
   background-color: white;
   border: 10px #295135;
   height: 100px;
-  widths: 100px;
+  width: 135px;
+  border-radius: 20px;
   opacity: 0;
   margin: auto;
   padding: 10px 20px 40px 20px;
@@ -270,7 +271,7 @@ label {
 .side-menu-design {
   background-image: url('https://i.imgur.com/VIspZ46.jpg');
   background-size: 1300px 700px;
-  background-repeat: cover;
+  background-repeat: no-repeat;
   cursor: pointer;
   opacity: 0;
   transform: translateX(100%);
@@ -282,14 +283,14 @@ label {
   padding: 0 25px 25px 25px;
 }
 .side-menu-content {
-  color: white;
+  color: #295135;
   font-size: 16px;
   margin: 15px;
   padding-left: 0;
   padding: 10px;
 }
 .side-menu-content li {
-  color: white;
+  color: #295135;
   list-style: none;
   padding: 5px;
 }
@@ -298,6 +299,7 @@ label {
   justify-content: right;
   align-items: center;
   margin-right: 50px;
+  padding-left: 20px;
 }
 .show-menu {
   opacity: 1;
