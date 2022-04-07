@@ -291,14 +291,14 @@ label {
   color: #295135;
   font-size: 16px;
   margin: 15px;
-  padding-left: 0;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
-.side-menu-content li {
-  color: #295135;
-  list-style: none;
-  padding: 5px;
+.side-menu-content a {
+  padding-top: 30px;
+  font-weight: bold;
 }
+
 .side-menu-icons {
   display: flex;
   justify-content: right;

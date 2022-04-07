@@ -2,6 +2,11 @@ console.log("hello world")
 
 document.getElementById('menu-trigger').addEventListener('click', sideMenuAppears);
 document.getElementById('menu-close').addEventListener('click', sideMenuDisappears);
+document.getElementById('menu-1-button-side').addEventListener('click', sideMenuDisappears);
+document.getElementById('menu-2-button-side').addEventListener('click', sideMenuDisappears);
+document.getElementById('menu-3-button-side').addEventListener('click', sideMenuDisappears);
+document.getElementById('menu-4-button-side').addEventListener('click', sideMenuDisappears);
+
 
 function sideMenuAppears() {
   // console.log('sideMenuAppears() is active');
