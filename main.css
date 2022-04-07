@@ -217,11 +217,13 @@ fieldset {
 input, button {
   display: block;
   margin-bottom: 15px;
-  color: white;
-  background-color: #cc4c33;
 }
 input[type=text].red-text {
   color: red;
+}
+.submit {
+  background-color: #cc4c33;
+  color: white;
 }
 label {
   padding-bottom: 8px;
