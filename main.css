@@ -69,9 +69,8 @@ li:hover {
   display: none;
  }
 }
-.phone-two {
+a {
   color: white;
-  background-color: blue;
 }
 .phone-section{
   display: flex;
