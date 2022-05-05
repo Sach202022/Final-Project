@@ -129,6 +129,9 @@ li:hover {
   padding: 10px;
   text-align: center;
 }
+.address-two {
+  color: white;
+}
 .intro {
   display: block;
   text-align: center;
